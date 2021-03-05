@@ -1,0 +1,311 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body
+{
+    font-size: sans-serif;
+}
+
+/*----------Header Section------------*/
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to left, #8E2DE2, #4A00E0);
+    padding: 0!important;
+}
+
+.navbar-brand span
+{
+    height: 40px;
+    padding-left: 20px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: white!important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: white;
+    font-size: 30px!important;
+}
+.navbar-toggler
+{
+    outline: none!important;
+}
+
+/*--------------Banner Section----------------*/
+
+#banner
+{
+    background-image: linear-gradient(to left, #8E2DE2, #4A00E0);
+    color: white;
+    padding-top: 5%;
+}
+.agency-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.btn-about
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: 
+    transition: 0.4s;
+}
+.btn-about:hover
+{
+    padding: 10px 30px;
+    border-radius: 0;
+}
+.bottom-img
+{
+    width: 100%;
+    height: 200px;
+}
+
+/*------------Service Section----------*/
+
+#services
+{
+    padding: 80px 0;
+}
+#services h1
+{
+    margin-bottom: 100px;
+}
+.service-img
+{
+    width: 200px;
+    margin-top: 20px;
+}
+.services-1 img {
+    height: 200px;
+}
+.services 
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding-top: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    width: 200px;
+    height: 5px;
+    background: #4A00E0;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(63px); /*Same a ::after*/
+}
+.title::after
+{
+    content: '';
+    width: 50px;
+    height: 10px;
+    background: #4A00E0;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    transform: translateY(8px); /*Same a ::after*/
+}
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4A00E0;
+    transition: 0.4s;
+}
+#services .btn-primary:hover
+{
+    padding: 10px 30px;
+    border-radius: 0;
+}
+
+/*------------------------About Us---------------------------*/
+
+#about-us
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us img
+{
+    width: 100%;
+    height: 100%;
+}
+#about-us ul li
+{
+    margin: 10px 0;
+}
+#about-us ul
+{
+    margin-left: 20px;
+}
+
+/*-----------------Testimonials-----------------*/
+
+#testimonials
+{
+    margin: 100px 0;
+}
+.testimonials
+{
+    border-left: 4px solid #4A00E0
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*----------------------Social-media Section-----------------------*/
+
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons i
+{
+    width: 40px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.social-icons a:hover i
+{
+    transform: translateY(-10px);
+}
+
+/*--------------------Footer contact------------------------*/
+
+#footer
+{
+    background-image: linear-gradient(to left, #8E2DE2, #4A00E0);
+    color: white;
+}
+.footer-img
+{
+    width: 100%;
+    /* transform: rotate(180deg); */
+    
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box a
+{
+    margin-bottom: 20px;
+}
+.footer-box .fas
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+}
+.footer-box .form-control
+{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn
+{
+    margin-top: 30px;
+    box-shadow: none!important;
+    border: none;
+    border-radius: 0;
+}
+hr
+{
+    background-color: white;
+}
+.copyrightText
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.copyrightText p
+{
+    color: white;
+}
+.copyrightText a
+{
+    color: #06ff3c;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+@media (max-width: 367px)
+{
+    #about-us .title::before
+    {
+        transform: translateY(111px);
+    }
+    #testimonials .title::before
+    {
+        transform: translateY(111px);
+    }
+}
